@@ -1,0 +1,33 @@
+String: string is a sequence/group of characters.
+
+or 
+
+it is a character array(collection of character values).
+
+for example, country name
+
+char countryName[] = {'I', 'n', 'd', 'i', 'a'};
+
+---------------------------------------------------------------------
+
+in java String is predefined class from 'java.lang' package.
+
+-> string is declared with 'final' keyword, when we create an
+   objects of string class, they cannot modifiable/changeable, that is
+   reason strings are called immutable objects.
+   
+----------------------------------------------------------------------
+=> How many ways we create string objects,
+
+1. using 'new' keyword
+
+2. literal way
+
+-----------------------------------------------------------------------
+We have to prove that String objects are immutable.
+-----------------------------------------------------------------------
+=> How to create mutable string objects using 'StringBuffer' and 'StringBuilder' classes 
+
+StringBuffer: it is Thread-safe(Supports Synchronization)
+
+StringBuilder: it is not Thread-safe(Not Supports Synchronization)
